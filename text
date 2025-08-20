@@ -1,0 +1,27 @@
+ <?php
+        echo "Welcome to My Web Page! <br>";
+        echo "This is a simple HTML document.<br>";
+
+        $X = 5;
+        $Y = 2.5;
+        $name = "Kabwe Ruth";
+        $array = [20,22,30,33];
+
+        echo $X;
+        define("PI", 3.14); 
+        echo PI;
+
+        echo "<br><br>Calculations with variables: <br>";
+
+        $add = $X + $Y;
+        $sub = $X - $Y;
+        $mul = $X * $Y;
+        $div = $X / $Y;
+
+        echo "<br>Addition: $add";
+        echo "<br>Subtraction: $sub";   
+        echo "<br>Multiplication: $mul";
+        echo "<br>Division: $div";
+
+        ?>
+
